@@ -25,9 +25,4 @@ function FindCode(block) {
   }
 }
 ------
-       else {
-      FindCode(tree[block.father]);
-      block.code = tree[block.father].code + '0';
-    }
-  }
-}
+       
